@@ -2,8 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
+//Il controller contiene gli endpoints dell' API
+
+
 [ApiController]
-[Route("[controller]")]
+[Route("[controller]")] // questo serve a dare una route nel listening 
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -18,7 +21,7 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "GetWeatherForecast")] //endpoint che ritorna una lista 
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast

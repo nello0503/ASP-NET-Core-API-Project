@@ -2,19 +2,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
+//This is the main entry point into our application 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//when a request runs in the pipeline, we can run software or code as it comes into it's way in the API server
 
 app.UseHttpsRedirection();
 
