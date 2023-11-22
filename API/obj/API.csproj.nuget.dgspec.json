@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nello\\Source\\Repos\\nello0503\\ASPNET-Angular-Project\\API\\API.csproj": {}
+    "C:\\Users\\nello\\Desktop\\DatingApp\\ASPNET-Angular-Project\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nello\\Source\\Repos\\nello0503\\ASPNET-Angular-Project\\API\\API.csproj": {
+    "C:\\Users\\nello\\Desktop\\DatingApp\\ASPNET-Angular-Project\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nello\\Source\\Repos\\nello0503\\ASPNET-Angular-Project\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\nello\\Desktop\\DatingApp\\ASPNET-Angular-Project\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\nello\\Source\\Repos\\nello0503\\ASPNET-Angular-Project\\API\\API.csproj",
+        "projectPath": "C:\\Users\\nello\\Desktop\\DatingApp\\ASPNET-Angular-Project\\API\\API.csproj",
         "packagesPath": "C:\\Users\\nello\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nello\\Source\\Repos\\nello0503\\ASPNET-Angular-Project\\API\\obj\\",
+        "outputPath": "C:\\Users\\nello\\Desktop\\DatingApp\\ASPNET-Angular-Project\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
