@@ -5,9 +5,7 @@ namespace API.Controllers;
 //Il controller contiene gli endpoints dell' API
 
 
-[ApiController]
-[Route("[controller]")] // questo serve a dare una route nel listening 
-public class WeatherForecastController : ControllerBase
+public class WeatherForecastController : BaseApiController
 {
     private static readonly string[] Summaries = new[]
     {
